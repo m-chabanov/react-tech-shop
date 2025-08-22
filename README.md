@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React Tech Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is tech shop created for pratice as demo for improving skills.
 
 ## Available Scripts
 
