@@ -6,7 +6,7 @@ export function getHttp(endPoint) {
     .catch((error) => {
       return {
         error,
-        translationKey: 'errors.get',
+        translationKey: 'errors.somethingWentWrong',
       };
     });
 }

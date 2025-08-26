@@ -1,0 +1,20 @@
+{
+  "products": {
+    "productsList": "Список продуктів"
+  },
+  "errors": {
+    "somethingWentWrong": "Щось пішло не так..."
+  },
+  "about": {
+    "aboutUs": "Про нас"
+  },
+  "productDetails": {
+    "productDetails": "Детальніше про товар"
+  },
+  "cart": {
+    "cart": "Кошик"
+  },
+  "checkout": {
+    "orderCheckout": "Оформлення замовлення"
+  }
+}

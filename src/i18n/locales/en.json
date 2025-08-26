@@ -1,0 +1,23 @@
+{
+  "products": {
+    "productsList": "Products List"
+  },
+  "errors": {
+    "somethingWentWrong": "Something Went Wrong"
+  },
+  "about": {
+    "aboutUs": "About Us"
+  },
+  "productDetails": {
+    "productDetails": "Product Details"
+  },
+  "cart": {
+    "cart": "Cart"
+  },
+  "checkout": {
+    "orderCheckout": "Order Checkout"
+  },
+  "notFound": {
+    "404NotFound": "404 Not Found"
+  }
+}
