@@ -1,19 +1,10 @@
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
-import { products } from './data/mocked/mocked';
-import { mapBy, filterBy, findBy } from './utils/array';
 import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
-
-  const mapped = mapBy(products, 'model');
-  const filtered = filterBy(products, 'type.name', 'tv');
-  const found = findBy(products, 'type.name', 'tv');
-
-  console.log('### MOCKED:', products);
-  console.log('### CHECKING WORK:', mapped, filtered, found);
 
   return (
     <>
