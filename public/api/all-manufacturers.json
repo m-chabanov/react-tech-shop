@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "samsung"
+  },
+  {
+    "id": 2,
+    "name": "lg"
+  },
+  {
+    "id": 3,
+    "name": "sony"
+  },
+  {
+    "id": 4,
+    "name": "xiaomi"
+  },
+  {
+    "id": 5,
+    "name": "hp"
+  },
+  {
+    "id": 6,
+    "name": "lenovo"
+  },
+  {
+    "id": 7,
+    "name": "acer"
+  },
+  {
+    "id": 8,
+    "name": "apple"
+  },
+  {
+    "id": 9,
+    "name": "a4tech"
+  },
+  {
+    "id": 10,
+    "name": "logitech"
+  }
+]

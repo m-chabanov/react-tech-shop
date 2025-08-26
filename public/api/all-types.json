@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "tv"
+  },
+  {
+    "id": 2,
+    "name": "phone"
+  },
+  {
+    "id": 3,
+    "name": "laptop"
+  },
+  {
+    "id": 4,
+    "name": "tablet"
+  },
+  {
+    "id": 5,
+    "name": "mouse"
+  },
+  {
+    "id": 6,
+    "name": "keyboard"
+  }
+]

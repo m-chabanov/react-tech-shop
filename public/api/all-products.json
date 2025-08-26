@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "additionalInfo": {
+      "type": {
+        "id": 1,
+        "name": "tv"
+      },
+      "manufacturer": {
+        "id": 1,
+        "name": "samsung"
+      }
+    },
+    "title": "OLED 55\" QE55S95DAUXUA",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 63999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 2,
+    "additionalInfo": {
+      "type": {
+        "id": 1,
+        "name": "tv"
+      },
+      "manufacturer": {
+        "id": 2,
+        "name": "lg"
+      }
+    },
+    "title": "50\" 50UT81006LA",
+    "isNew": true,
+    "price": {
+      "hasDiscount": true,
+      "currentPrice": 16999,
+      "pecentage": 10
+    }
+  },
+  {
+    "id": 3,
+    "additionalInfo": {
+      "type": {
+        "id": 1,
+        "name": "tv"
+      },
+      "manufacturer": {
+        "id": 3,
+        "name": "sony"
+      }
+    },
+    "title": "43\" KD43X75WLE33",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 26499,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 4,
+    "additionalInfo": {
+      "type": {
+        "id": 1,
+        "name": "tv"
+      },
+      "manufacturer": {
+        "id": 4,
+        "name": "xiaomi"
+      }
+    },
+    "title": "TV A Pro 32\" (L32M8-A2ME)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 5799,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 5,
+    "additionalInfo": {
+      "type": {
+        "id": 1,
+        "name": "tv"
+      },
+      "manufacturer": {
+        "id": 1,
+        "name": "samsung"
+      }
+    },
+    "title": "43\" UE43T5300AUXUA",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 15999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 6,
+    "additionalInfo": {
+      "type": {
+        "id": 2,
+        "name": "phone"
+      },
+      "manufacturer": {
+        "id": 1,
+        "name": "samsung"
+      }
+    },
+    "title": "Galaxy S24 FE 8/256GB Graphite (SM-S721BZKGEUC)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": true,
+      "currentPrice": 23499,
+      "pecentage": 15
+    }
+  },
+  {
+    "id": 7,
+    "additionalInfo": {
+      "type": {
+        "id": 2,
+        "name": "phone"
+      },
+      "manufacturer": {
+        "id": 3,
+        "name": "sony"
+      }
+    },
+    "title": "Xperia 1 VI 12/256GB Black (XQEC54EUKCB.GC)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": true,
+      "currentPrice": 23499,
+      "pecentage": 20
+    }
+  },
+  {
+    "id": 8,
+    "additionalInfo": {
+      "type": {
+        "id": 2,
+        "name": "phone"
+      },
+      "manufacturer": {
+        "id": 4,
+        "name": "xiaomi"
+      }
+    },
+    "title": "Redmi Note 14 8/256GB Midnight Black (1123261)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 7499,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 9,
+    "additionalInfo": {
+      "type": {
+        "id": 2,
+        "name": "phone"
+      },
+      "manufacturer": {
+        "id": 8,
+        "name": "apple"
+      }
+    },
+    "title": "iPhone 14 128GB Midnight (MPUF3RX/A)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 24899,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 10,
+    "additionalInfo": {
+      "type": {
+        "id": 2,
+        "name": "phone"
+      },
+      "manufacturer": {
+        "id": 8,
+        "name": "apple"
+      }
+    },
+    "title": "iPhone 16 Pro 256GB Natural Titanium (MYNL3SX/A)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 56699,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 11,
+    "additionalInfo": {
+      "type": {
+        "id": 3,
+        "name": "laptop"
+      },
+      "manufacturer": {
+        "id": 1,
+        "name": "samsung"
+      }
+    },
+    "title": "Galaxy Book4 Edge NP750XQA Qualcomm Snapdragon X Plus X1P-42 16GB/256GB",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 27430,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 12,
+    "additionalInfo": {
+      "type": {
+        "id": 3,
+        "name": "laptop"
+      },
+      "manufacturer": {
+        "id": 5,
+        "name": "hp"
+      }
+    },
+    "title": "Victus Gaming Laptop 15-fa1031ua (BM0P8EA) Mica Silver / 15.6\" IPS / Intel Core i5-12500H / RAM 16 GB / SSD 512 GB / RTX 4060, 8 GB",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 42999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 13,
+    "additionalInfo": {
+      "type": {
+        "id": 3,
+        "name": "laptop"
+      },
+      "manufacturer": {
+        "id": 6,
+        "name": "lenovo"
+      }
+    },
+    "title": "IdeaPad Slim 3 15ABR8 (82XM00YJRA) Arctic Grey / 15.6\" IPS Full HD / AMD Ryzen 7 5825U / RAM 16 GB / SSD 512 GB",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 19999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 14,
+    "additionalInfo": {
+      "type": {
+        "id": 3,
+        "name": "laptop"
+      },
+      "manufacturer": {
+        "id": 7,
+        "name": "acer"
+      }
+    },
+    "title": "Aspire 3 A315-59-55EX (NX.K6SEU.02B) Pure Silver / 15.6\" WXGA / Intel Core i5-1235U / RAM 12 GB / SSD 512 GB",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 16999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 15,
+    "additionalInfo": {
+      "type": {
+        "id": 3,
+        "name": "laptop"
+      },
+      "manufacturer": {
+        "id": 8,
+        "name": "apple"
+      }
+    },
+    "title": "MacBook Air 13\" M1 8/256GB 2020 (MGN63) Space Gray",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 29999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 16,
+    "additionalInfo": {
+      "type": {
+        "id": 4,
+        "name": "tablet"
+      },
+      "manufacturer": {
+        "id": 7,
+        "name": "acer"
+      }
+    },
+    "title": "Iconia Tab P10-21Q-82A6 Wi-Fi 6/256GB Gray (NT.LHFEU.002)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 6999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 17,
+    "additionalInfo": {
+      "type": {
+        "id": 4,
+        "name": "tablet"
+      },
+      "manufacturer": {
+        "id": 4,
+        "name": "xiaomi"
+      }
+    },
+    "title": "Redmi Pad 2 Wi-Fi 8/256GB Graphite Gray (VHU5631EU)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 8999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 18,
+    "additionalInfo": {
+      "type": {
+        "id": 4,
+        "name": "tablet"
+      },
+      "manufacturer": {
+        "id": 6,
+        "name": "lenovo"
+      }
+    },
+    "title": "Idea Tab Pro Wi-Fi 8/128GB Luna Grey + Pen&Moto Buds (ZAE40156UA)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 13499,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 19,
+    "additionalInfo": {
+      "type": {
+        "id": 4,
+        "name": "tablet"
+      },
+      "manufacturer": {
+        "id": 8,
+        "name": "apple"
+      }
+    },
+    "title": "iPad 11\" 2025 Wi-Fi 128GB Blue (MD4A4TY/A)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 16999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 20,
+    "additionalInfo": {
+      "type": {
+        "id": 4,
+        "name": "tablet"
+      },
+      "manufacturer": {
+        "id": 1,
+        "name": "samsung"
+      }
+    },
+    "title": "Galaxy Tab A9 Plus Wi-Fi 6/128GB Graphite (SM-X210RZAREUC)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 8999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 21,
+    "additionalInfo": {
+      "type": {
+        "id": 5,
+        "name": "mouse"
+      },
+      "manufacturer": {
+        "id": 9,
+        "name": "a4tech"
+      }
+    },
+    "title": "Proove Gaming Rate Special Edition Wireless/Bluetooth/USB Black-Purple (637490569)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 1499,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 22,
+    "additionalInfo": {
+      "type": {
+        "id": 5,
+        "name": "mouse"
+      },
+      "manufacturer": {
+        "id": 9,
+        "name": "a4tech"
+      }
+    },
+    "title": "Bloody W95 Max USB Naraka (4711421982153)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": true,
+      "currentPrice": 1399,
+      "pecentage": 20
+    }
+  },
+  {
+    "id": 23,
+    "additionalInfo": {
+      "type": {
+        "id": 5,
+        "name": "mouse"
+      },
+      "manufacturer": {
+        "id": 9,
+        "name": "a4tech"
+      }
+    },
+    "title": "Bloody R36 Ultra Wireless Naraka (4711421002219)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 1749,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 24,
+    "additionalInfo": {
+      "type": {
+        "id": 5,
+        "name": "mouse"
+      },
+      "manufacturer": {
+        "id": 10,
+        "name": "logitech"
+      }
+    },
+    "title": "G102 Lightsync USB Black (910-005823)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 1199,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 25,
+    "additionalInfo": {
+      "type": {
+        "id": 5,
+        "name": "mouse"
+      },
+      "manufacturer": {
+        "id": 10,
+        "name": "logitech"
+      }
+    },
+    "title": "G Pro 2 Lightspeed Wireless Black (910-007295)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 4599,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 26,
+    "additionalInfo": {
+      "type": {
+        "id": 6,
+        "name": "keyboard"
+      },
+      "manufacturer": {
+        "id": 9,
+        "name": "a4tech"
+      }
+    },
+    "title": "Bloody WS87 Pixels Red Wireless (4711421001250)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 1999,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 27,
+    "additionalInfo": {
+      "type": {
+        "id": 6,
+        "name": "keyboard"
+      },
+      "manufacturer": {
+        "id": 9,
+        "name": "a4tech"
+      }
+    },
+    "title": "Bloody S98 Naraka BLMS USB Black/White/Red (4711421000383)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 2399,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 28,
+    "additionalInfo": {
+      "type": {
+        "id": 6,
+        "name": "keyboard"
+      },
+      "manufacturer": {
+        "id": 7,
+        "name": "acer"
+      }
+    },
+    "title": "OKW020 EN/UKR/RU USB Black (ZL.KBDEE.013)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 349,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 29,
+    "additionalInfo": {
+      "type": {
+        "id": 6,
+        "name": "keyboard"
+      },
+      "manufacturer": {
+        "id": 1,
+        "name": "samsung"
+      }
+    },
+    "title": "Smart Keyboard Trio 500 Black (EJ-B3400BBRGRU)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 1619,
+      "pecentage": 0
+    }
+  },
+  {
+    "id": 30,
+    "additionalInfo": {
+      "type": {
+        "id": 6,
+        "name": "keyboard"
+      },
+      "manufacturer": {
+        "id": 6,
+        "name": "lenovo"
+      }
+    },
+    "title": "Multi-Device Bluetooth/USB Grey (ZG38C05806)",
+    "isNew": true,
+    "price": {
+      "hasDiscount": false,
+      "currentPrice": 2699,
+      "pecentage": 0
+    }
+  }
+]
