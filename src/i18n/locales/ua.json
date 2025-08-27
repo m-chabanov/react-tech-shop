@@ -1,9 +1,14 @@
 {
-  "products": {
-    "productsList": "Список продуктів"
+  "navigation": {
+    "home": "Домашня сторінка",
+    "about": "Про нас",
+    "cart": "Кошик"
   },
   "errors": {
     "somethingWentWrong": "Щось пішло не так..."
+  },
+  "products": {
+    "productsList": "Список продуктів"
   },
   "about": {
     "aboutUs": "Про нас"

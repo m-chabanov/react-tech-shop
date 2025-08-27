@@ -1,9 +1,14 @@
 {
-  "products": {
-    "productsList": "Products List"
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "cart": "Cart"
   },
   "errors": {
     "somethingWentWrong": "Something Went Wrong"
+  },
+  "products": {
+    "productsList": "Products List"
   },
   "about": {
     "aboutUs": "About Us"

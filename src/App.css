@@ -4,3 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+
+.top-nav-link {
+  padding: 15px 10px;
+}
+
+.top-nav-link.active {
+  text-decoration: underline;
+}
