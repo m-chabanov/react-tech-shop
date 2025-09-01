@@ -1,8 +1,12 @@
 {
   "navigation": {
-    "home": "Домашня сторінка",
+    "products": "Товари",
     "about": "Про нас",
     "cart": "Кошик"
+  },
+  "labels": {
+    "cart": "Кошик",
+    "openMenu": "Відкрити меню"
   },
   "errors": {
     "somethingWentWrong": "Щось пішло не так..."
@@ -21,5 +25,8 @@
   },
   "checkout": {
     "orderCheckout": "Оформлення замовлення"
+  },
+  "notFound": {
+    "404NotFound": "Упс... Сторінку не знайдено"
   }
 }

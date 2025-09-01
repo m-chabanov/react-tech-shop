@@ -1,8 +1,16 @@
 {
   "navigation": {
-    "home": "Home",
+    "logoText": "Tech Shop",
+    "products": "Products",
     "about": "About Us",
     "cart": "Cart"
+  },
+  "footer": {
+    "footerText": "React Tech Shop by Mykhailo Chabanov, 2025"
+  },
+  "labels": {
+    "cart": "Cart",
+    "openMenu": "Open Menu"
   },
   "errors": {
     "somethingWentWrong": "Something Went Wrong"
