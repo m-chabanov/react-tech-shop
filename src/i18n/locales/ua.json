@@ -1,12 +1,16 @@
 {
-  "navigation": {
-    "products": "Товари",
-    "about": "Про нас",
-    "cart": "Кошик"
-  },
-  "labels": {
-    "cart": "Кошик",
-    "openMenu": "Відкрити меню"
+  "header": {
+    "navigation": {
+      "products": "Товари",
+      "about": "Про нас",
+      "cart": "Кошик"
+    },
+    "tooltips": {
+      "english": "Англійська",
+      "ukrainian": "Українська",
+      "cart": "Кошик",
+      "openMenu": "Відкрити меню"
+    }
   },
   "errors": {
     "somethingWentWrong": "Щось пішло не так..."

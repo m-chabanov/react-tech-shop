@@ -15,17 +15,18 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link as RouterLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
+import LangSwitcher from '@/components/ui/LangSwitcher';
 
 const pages = [
   {
     name: 'products',
     path: '/',
-    translationKey: 'navigation.products',
+    translationKey: 'header.navigation.products',
   },
   {
     name: 'about',
     path: '/about',
-    translationKey: 'navigation.about',
+    translationKey: 'header.navigation.about',
   },
 ];
 
@@ -58,13 +59,13 @@ function Menu() {
               textDecoration: 'none',
             }}
           >
-            {t('navigation.logoText')}
+            {t('header.navigation.logoText')}
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
-              aria-label={t('labels.openMenu')}
+              aria-label={t('header.tooltips.openMenu')}
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
@@ -119,7 +120,7 @@ function Menu() {
               textDecoration: 'none',
             }}
           >
-            {t('navigation.logoText')}
+            {t('header.navigation.logoText')}
           </Typography>
           <Box
             sx={{
@@ -146,9 +147,9 @@ function Menu() {
             ))}
           </Box>
           <Box sx={{ flexGrow: 0, ml: 4 }}>
-            <Tooltip title={t('navigation.cart')}>
+            <Tooltip title={t('header.navigation.cart')}>
               <IconButton
-                aria-label={t('labels.cart')}
+                aria-label={t('header.tooltips.cart')}
                 component={RouterLink}
                 to="/cart"
                 sx={(theme) => ({ color: theme.palette.primary.contrastText })}
@@ -156,6 +157,9 @@ function Menu() {
                 <ShoppingCartIcon />
               </IconButton>
             </Tooltip>
+          </Box>
+          <Box sx={{ flexGrow: 0, ml: 4 }}>
+            <LangSwitcher />
           </Box>
         </Toolbar>
       </Container>

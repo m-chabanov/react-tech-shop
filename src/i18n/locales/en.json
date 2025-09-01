@@ -1,9 +1,21 @@
 {
-  "navigation": {
-    "logoText": "Tech Shop",
-    "products": "Products",
-    "about": "About Us",
-    "cart": "Cart"
+  "header": {
+    "navigation": {
+      "logoText": "Tech Shop",
+      "products": "Products",
+      "about": "About Us",
+      "cart": "Cart"
+    },
+    "langSwitcher": {
+      "english": "🇺🇸",
+      "ukrainian": "🇺🇦"
+    },
+    "tooltips": {
+      "english": "English",
+      "ukrainian": "Ukrainian",
+      "cart": "Cart",
+      "openMenu": "Open Menu"
+    }
   },
   "footer": {
     "footerText": "React Tech Shop by Mykhailo Chabanov, 2025"
