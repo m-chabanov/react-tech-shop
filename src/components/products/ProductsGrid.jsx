@@ -19,13 +19,13 @@ function ProductsGrid({ products, isLoading }) {
                 <Skeleton
                   variant="body1"
                   animation="wave"
-                  width="100%"
+                  width="90%"
                   sx={{ my: 1 }}
                 />
                 <Skeleton
                   variant="body1"
                   animation="wave"
-                  width="100%"
+                  width="70%"
                   sx={{ my: 1 }}
                 />
               </Grid>

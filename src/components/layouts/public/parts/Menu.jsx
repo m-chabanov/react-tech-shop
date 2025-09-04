@@ -146,7 +146,7 @@ function Menu() {
               </Button>
             ))}
           </Box>
-          <Box sx={{ flexGrow: 0, ml: 4 }}>
+          <Box sx={{ flexGrow: 0, ml: { xs: 1, md: 4 } }}>
             <Tooltip title={t('header.navigation.cart')}>
               <IconButton
                 aria-label={t('header.tooltips.cart')}
@@ -158,7 +158,7 @@ function Menu() {
               </IconButton>
             </Tooltip>
           </Box>
-          <Box sx={{ flexGrow: 0, ml: 4 }}>
+          <Box sx={{ flexGrow: 0, ml: { xs: 1, md: 4 } }}>
             <LangSwitcher />
           </Box>
         </Toolbar>
