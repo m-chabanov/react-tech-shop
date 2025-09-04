@@ -1,4 +1,3 @@
-import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProducts } from '@/store/slices/productsSlice';
 import { useEffect } from 'react';
@@ -14,10 +13,8 @@ function Products() {
   const products = useSelector(selectProducts);
   const isLoading = useSelector(selectIsLoading);
   useEffect(() => {
-    if (!isLoading) {
-      dispatch(fetchProducts());
-    }
-  }, []);
+    dispatch(fetchProducts());
+  }, [dispatch]);
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Grid container>

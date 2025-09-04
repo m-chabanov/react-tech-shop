@@ -3,7 +3,7 @@ import { getAllProductsDelayed } from '@/services/products';
 
 export const fetchProducts = createAsyncThunk(
   'products/fetchProducts',
-  async (type, thunkAPI) => {
+  async () => {
     try {
       let products = await getAllProductsDelayed();
       return products;
@@ -34,7 +34,7 @@ const productsSlice = createSlice({
       }
     });
 
-    builder.addCase(fetchProducts.rejected, (state, action) => {
+    builder.addCase(fetchProducts.rejected, (state) => {
       state.isLoading = false;
     });
   },
