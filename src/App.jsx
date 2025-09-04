@@ -4,7 +4,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import PublicLayout from '@/components/layouts/public/PublicLayout';
 import CleanLayout from '@/components/layouts/clean/CleanLayout';
-import Home from '@/pages/Home';
+import Products from '@/pages/Products';
 import About from '@/pages/About';
 import ProductDetails from '@/pages/ProductDetails';
 import Cart from '@/pages/Cart';
@@ -26,7 +26,7 @@ function App() {
         <div className="app">
           <Routes>
             <Route element={<PublicLayout />} path="/">
-              <Route element={<Home />} index />
+              <Route element={<Products />} index />
               <Route element={<About />} path="about" />
               <Route element={<ProductDetails />} path="product/:id" />
               <Route element={<Cart />} path="cart" />

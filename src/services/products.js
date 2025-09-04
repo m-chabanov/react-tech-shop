@@ -5,4 +5,14 @@ const getAllProducts = () => {
   return getHttp(allProductsEndpoint);
 };
 
-export { getAllProducts };
+// TO DELETE: There's no need to use this methods with real API.
+// It's created for Back-End response timing emulation
+const getAllProductsDelayed = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(getHttp(allProductsEndpoint));
+    }, 1500);
+  });
+};
+
+export { getAllProducts, getAllProductsDelayed };

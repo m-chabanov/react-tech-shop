@@ -16,7 +16,15 @@
     "somethingWentWrong": "Щось пішло не так..."
   },
   "products": {
-    "productsList": "Список продуктів"
+    "productsList": "Список продуктів",
+    "types": {
+      "tv": "Телевізор",
+      "phone": "Смартфон",
+      "tablet": "Планшет",
+      "mouse": "Миша",
+      "keyboard": "Клавіатура",
+      "laptop": "Ноутбук"
+    }
   },
   "about": {
     "aboutUs": "Про нас"

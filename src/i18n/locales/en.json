@@ -28,7 +28,27 @@
     "somethingWentWrong": "Something Went Wrong"
   },
   "products": {
-    "productsList": "Products List"
+    "productsList": "Products List",
+    "types": {
+      "tv": "TV",
+      "phone": "Smartphone",
+      "tablet": "Tablet",
+      "mouse": "Mouse",
+      "keyboard": "Keyboard",
+      "laptop": "Laptop"
+    },
+    "manufacturers": {
+      "samsung": "Samsung",
+      "lg": "LG",
+      "sony": "Sony",
+      "xiaomi": "Xiaomi",
+      "hp": "HP",
+      "lenovo": "Lenovo",
+      "acer": "Acer",
+      "apple": "Apple",
+      "a4tech": "A4Tech",
+      "logitech": "Logitech"
+    }
   },
   "about": {
     "aboutUs": "About Us"

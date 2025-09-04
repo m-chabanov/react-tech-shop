@@ -1,4 +1,4 @@
-import { pathToApi } from '@/configs/config';
+import { pathToApi } from '@/config/config';
 
 export function getHttp(endPoint) {
   return fetch(`${pathToApi}/${endPoint}`)
