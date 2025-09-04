@@ -8,6 +8,7 @@ import {
   Skeleton,
 } from '@mui/material';
 import { useState } from 'react';
+import { Link as RouterLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 function ProductSmallCard({ product }) {
@@ -20,6 +21,8 @@ function ProductSmallCard({ product }) {
   );
   return (
     <Card
+      component={RouterLink}
+      to={`product/${product.id}`}
       sx={{
         display: 'flex',
         flexDirection: 'column',

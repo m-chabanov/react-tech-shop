@@ -1,4 +1,4 @@
-import { Box, Grid, Paper, Skeleton } from '@mui/material';
+import { Box, Grid, Skeleton } from '@mui/material';
 import ProductSmallCard from './ProductSmallCard';
 
 const skeletonGridsCount = 12;
