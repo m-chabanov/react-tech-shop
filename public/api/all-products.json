@@ -16,7 +16,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 63999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -36,7 +36,7 @@
     "price": {
       "hasDiscount": true,
       "currentPrice": 16999,
-      "pecentage": 10
+      "percentage": 10
     }
   },
   {
@@ -56,7 +56,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 26499,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -76,7 +76,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 5799,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -96,7 +96,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 15999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -116,7 +116,7 @@
     "price": {
       "hasDiscount": true,
       "currentPrice": 23499,
-      "pecentage": 15
+      "percentage": 15
     }
   },
   {
@@ -136,7 +136,7 @@
     "price": {
       "hasDiscount": true,
       "currentPrice": 23499,
-      "pecentage": 20
+      "percentage": 20
     }
   },
   {
@@ -156,7 +156,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 7499,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -176,7 +176,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 24899,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -196,7 +196,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 56699,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -216,7 +216,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 27430,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -236,7 +236,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 42999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -256,7 +256,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 19999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -276,7 +276,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 16999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -296,7 +296,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 29999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -316,7 +316,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 6999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -336,7 +336,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 8999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -356,7 +356,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 13499,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -376,7 +376,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 16999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -396,7 +396,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 8999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -416,7 +416,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 1499,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -436,7 +436,7 @@
     "price": {
       "hasDiscount": true,
       "currentPrice": 1399,
-      "pecentage": 20
+      "percentage": 20
     }
   },
   {
@@ -456,7 +456,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 1749,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -476,7 +476,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 1199,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -496,7 +496,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 4599,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -516,7 +516,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 1999,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -536,7 +536,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 2399,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -556,7 +556,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 349,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -576,7 +576,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 1619,
-      "pecentage": 0
+      "percentage": 0
     }
   },
   {
@@ -596,7 +596,7 @@
     "price": {
       "hasDiscount": false,
       "currentPrice": 2699,
-      "pecentage": 0
+      "percentage": 0
     }
   }
 ]

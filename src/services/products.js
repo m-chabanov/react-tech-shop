@@ -5,6 +5,11 @@ const getAllProducts = () => {
   return getHttp(allProductsEndpoint);
 };
 
+const calculateDiscount = (price) => {
+  const { currentPrice, percentage } = price;
+  return Math.round(currentPrice - currentPrice * (percentage / 100));
+};
+
 // TO DELETE: There's no need to use this methods with real API.
 // It's created for Back-End response timing emulation
 const getAllProductsDelayed = () => {
@@ -15,4 +20,4 @@ const getAllProductsDelayed = () => {
   });
 };
 
-export { getAllProducts, getAllProductsDelayed };
+export { getAllProducts, getAllProductsDelayed, calculateDiscount };
