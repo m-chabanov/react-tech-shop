@@ -1,9 +1,9 @@
 import { Box, Grid, Skeleton } from '@mui/material';
-import ProductSmallCard from './ProductSmallCard';
+import ProductSmallCard from '@/components/products/ProductSmallCard';
 
 const skeletonGridsCount = 12;
 
-function ProductsGrid({ products, isLoading }) {
+function ProductsGrid({ products, isLoading, addToCart, isAlreadyInCart }) {
   return (
     <Box sx={{ p: 2 }}>
       <Grid container spacing={2}>
@@ -32,7 +32,11 @@ function ProductsGrid({ products, isLoading }) {
             ))
           : products.map((product) => (
               <Grid size={{ xs: 12, sm: 4 }} key={product.id}>
-                <ProductSmallCard product={product} />
+                <ProductSmallCard
+                  product={product}
+                  addToCart={addToCart}
+                  isAlreadyInCart={isAlreadyInCart}
+                />
               </Grid>
             ))}
       </Grid>

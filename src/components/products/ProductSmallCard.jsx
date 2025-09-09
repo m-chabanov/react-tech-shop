@@ -1,6 +1,5 @@
 import {
   Card,
-  Tooltip,
   CardContent,
   CardMedia,
   Typography,
@@ -9,14 +8,21 @@ import {
   Grid,
   Button,
 } from '@mui/material';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import { useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { calculateDiscount } from '../../services/products';
+import Price from '@/components/ui/Price';
 
-function ProductSmallCard({ product }) {
+function ProductSmallCard({ product, addToCart, isAlreadyInCart }) {
   const { t } = useTranslation();
   const [isImageLoaded, setIsImageLoaded] = useState(false);
+  const navigate = useNavigate();
+
+  const handleGoToCart = () => {
+    navigate('/cart');
+  };
 
   const type = t(`products.types.${product.additionalInfo.type.name}`);
   const manufacturer = t(
@@ -59,62 +65,43 @@ function ProductSmallCard({ product }) {
           sx={{
             flexGrow: 1,
             '&:last-child': {
-              pb: 0,
+              pb: 2,
             },
           }}
         >
-          <Tooltip title={`${type} ${manufacturer} ${product.title}`}>
-            <Typography
-              sx={{
-                overflow: 'hidden',
-                display: '-webkit-box',
-                WebkitBoxOrient: 'vertical',
-                WebkitLineClamp: 2,
-                minHeight: '48px',
-              }}
-            >
-              {`${type} ${manufacturer} ${product.title}`}
-            </Typography>
-          </Tooltip>
+          <Typography
+            sx={{
+              overflow: 'hidden',
+              display: '-webkit-box',
+              WebkitBoxOrient: 'vertical',
+              WebkitLineClamp: 2,
+              minHeight: '48px',
+            }}
+          >
+            {`${type} ${manufacturer} ${product.title}`}
+          </Typography>
         </CardContent>
       </Box>
-      {/* <CardActions disableSpacing> */}
-      <Grid container sx={{ mb: 2, mt: 0 }}>
-        <Grid size={5}>
-          {product.price.hasDiscount ? (
-            <Box>
-              <Typography
-                variant="body2"
-                color="error"
-                sx={{ textDecoration: 'line-through', color: 'red' }}
-              >
-                {product.price.currentPrice}
-              </Typography>
-              <Typography
-                variant="body1"
-                color="error"
-                sx={{ textDecoration: 'none' }}
-              >
-                {calculateDiscount(product.price)}
-              </Typography>
-            </Box>
+      <Grid container sx={{ mb: 2, mt: 0, alignItems: 'center' }}>
+        <Grid size={{ xs: 12, md: 4 }} sx={{ p: 1 }}>
+          <Price price={product.price} />
+        </Grid>
+        <Grid size={{ xs: 12, md: 8 }} sx={{ p: 1 }}>
+          {isAlreadyInCart(product.id) ? (
+            <Button color="success" variant="outlined" onClick={handleGoToCart}>
+              <AddShoppingCartIcon /> {t('products.buttons.watchInCart')}
+            </Button>
           ) : (
-            <Typography
-              variant="body1"
-              color="error"
-              sx={{ textDecoration: 'none' }}
+            <Button
+              color="success"
+              variant="contained"
+              onClick={() => addToCart(product)}
             >
-              {product.price.currentPrice}
-            </Typography>
+              {t('products.buttons.addToCart')}
+            </Button>
           )}
         </Grid>
-        <Grid size={7}>
-          <Button color="success" variant="outlined">
-            Add To Cart
-          </Button>
-        </Grid>
       </Grid>
-      {/* </CardActions> */}
     </Card>
   );
 }

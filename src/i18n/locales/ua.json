@@ -24,6 +24,10 @@
       "mouse": "Миша",
       "keyboard": "Клавіатура",
       "laptop": "Ноутбук"
+    },
+    "buttons": {
+      "addToCart": "Додати до кошика",
+      "watchInCart": "У кошику"
     }
   },
   "about": {
@@ -33,7 +37,19 @@
     "productDetails": "Детальніше про товар"
   },
   "cart": {
-    "cart": "Кошик"
+    "cart": "Кошик",
+    "emptyCart": "Ваш кошик порожній!",
+    "addSomething": "Просто додайте щось :)",
+    "labels": {
+      "setQuantity": "Встановити кількість",
+      "quantity": "Кількість"
+    },
+    "buttons": {
+      "remove": "Видалити",
+      "selectAll": "Обрати все",
+      "removeSelected": "Видалити обране",
+      "clearCart": "Очистити кошик"
+    }
   },
   "checkout": {
     "orderCheckout": "Оформлення замовлення"

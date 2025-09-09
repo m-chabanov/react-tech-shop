@@ -48,6 +48,10 @@
       "apple": "Apple",
       "a4tech": "A4Tech",
       "logitech": "Logitech"
+    },
+    "buttons": {
+      "addToCart": "Add to Cart",
+      "watchInCart": "Watch in Cart"
     }
   },
   "about": {
@@ -57,7 +61,19 @@
     "productDetails": "Product Details"
   },
   "cart": {
-    "cart": "Cart"
+    "cart": "Cart",
+    "emptyCart": "Your cart is empty!",
+    "addSomething": "Just add something :)",
+    "labels": {
+      "setQuantity": "Set Quantity",
+      "quantity": "Quantity"
+    },
+    "buttons": {
+      "remove": "Remove",
+      "selectAll": "Select All",
+      "removeSelected": "Remove Selected",
+      "clearCart": "Clear Cart"
+    }
   },
   "checkout": {
     "orderCheckout": "Order Checkout"

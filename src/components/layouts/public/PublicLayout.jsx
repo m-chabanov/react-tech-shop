@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
-import Header from './parts/Header';
-import Footer from './parts/Footer';
+import Header from '@/components/layouts/public/parts/Header';
+import Footer from '@/components/layouts/public/parts/Footer';
 import { Box, Container } from '@mui/material';
 
 function PublicLayout() {

@@ -16,7 +16,7 @@ const getAllProductsDelayed = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(getHttp(allProductsEndpoint));
-    }, 1500);
+    }, 1000);
   });
 };
 
