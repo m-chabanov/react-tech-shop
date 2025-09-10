@@ -26,13 +26,15 @@ function CartGoods({
               <Button variant="outlined" onClick={selectAll}>
                 {t('cart.buttons.selectAll')}
               </Button>
-              <Button
-                variant="outlined"
-                sx={{ ml: 1 }}
-                onClick={removeSelected}
-              >
-                {t('cart.buttons.removeSelected')}
-              </Button>
+              {cart.some((item) => item.isSelected) && (
+                <Button
+                  variant="outlined"
+                  sx={{ ml: 1 }}
+                  onClick={removeSelected}
+                >
+                  {t('cart.buttons.removeSelected')}
+                </Button>
+              )}
             </Grid>
             <Grid size={4} sx={{ textAlign: 'right' }}>
               <Button onClick={clearCart} variant="contained">
