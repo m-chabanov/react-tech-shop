@@ -19,6 +19,7 @@ function CartGoods({
   toggleSelected,
   selectAll,
   removeSelected,
+  isLoading,
 }) {
   const { t } = useTranslation();
   return (
@@ -32,7 +33,11 @@ function CartGoods({
         >
           <Toolbar>
             <Grid size={8}>
-              <Button variant="outlined" onClick={selectAll}>
+              <Button
+                variant="outlined"
+                onClick={selectAll}
+                disabled={isLoading}
+              >
                 {t('cart.buttons.selectAll')}
               </Button>
               {cart.some((item) => item.isSelected) && (
@@ -40,13 +45,18 @@ function CartGoods({
                   variant="outlined"
                   sx={{ ml: 1 }}
                   onClick={removeSelected}
+                  disabled={isLoading}
                 >
                   {t('cart.buttons.removeSelected')}
                 </Button>
               )}
             </Grid>
             <Grid size={4} sx={{ textAlign: 'right' }}>
-              <Button onClick={clearCart} variant="contained">
+              <Button
+                onClick={clearCart}
+                variant="contained"
+                disabled={isLoading}
+              >
                 {t('cart.buttons.clearCart')}
               </Button>
             </Grid>

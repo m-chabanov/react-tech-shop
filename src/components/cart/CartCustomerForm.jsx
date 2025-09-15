@@ -37,7 +37,7 @@ const schema = z.object({
   comments: z.string().max(500, { message: 'tooLong' }).optional(),
 });
 
-function CartCustomerForm({ submitOrder }) {
+function CartCustomerForm({ submitOrder, isLoading }) {
   const { t } = useTranslation();
   const {
     register,
@@ -174,13 +174,20 @@ function CartCustomerForm({ submitOrder }) {
       <Grid size={12} sx={{ alignItems: 'end' }}>
         <Button
           variant="outlined"
+          disabled={isLoading}
           color="error"
           sx={{ m: 1 }}
           onClick={() => reset()}
         >
           {t('cart.form.buttons.clearForm')}
         </Button>
-        <Button variant="contained" color="success" sx={{ m: 1 }} type="submit">
+        <Button
+          variant="contained"
+          color="success"
+          sx={{ m: 1 }}
+          type="submit"
+          loading={isLoading}
+        >
           {t('cart.form.buttons.confirmOrder')}
         </Button>
       </Grid>

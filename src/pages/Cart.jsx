@@ -14,16 +14,17 @@ import {
   removeSelected,
 } from '@/store/slices/cartSlice';
 import { useEffect } from 'react';
-import {
-  syncCartWithLocalStorage,
-  countTotal,
-  confirmAndSaveOrder,
-} from '@/services/cart';
+import { syncCartWithLocalStorage, countTotal } from '@/services/cart';
+import { fetchAddNewOrder } from '@/store/slices/ordersSlice';
+import { selectIsLoading } from '@/store/selectors/ordersSelectors';
+import { useNavigate } from 'react-router-dom';
 
 function Cart() {
   const dispatch = useDispatch();
   const { t } = useTranslation();
   const cart = useSelector(selectCart);
+  const isLoading = useSelector(selectIsLoading);
+  const navigate = useNavigate();
 
   const handleSetQuantity = (value) => {
     if (value.newQuantity < 1) {
@@ -52,15 +53,22 @@ function Cart() {
     dispatch(removeSelected());
   };
 
-  const handleSubmitOrder = (formData) => {
+  const handleSubmitOrder = async (formData) => {
     const data = {
       id: uuidv4(),
       customer: { ...formData },
       items: [...cart],
-      createdAt: new Date().toString(),
+      createdAt: new Date().toISOString(),
       total: countTotal(cart),
     };
-    confirmAndSaveOrder(data);
+    try {
+      await dispatch(fetchAddNewOrder(data)).unwrap();
+      dispatch(clearCart());
+      navigate('/checkout');
+    } catch (error) {
+      //TODO: Normal error handler
+      return error;
+    }
   };
 
   useEffect(() => {
@@ -86,6 +94,7 @@ function Cart() {
         <Box>
           <CartGoods
             cart={cart}
+            isLoading={isLoading}
             setQuantity={handleSetQuantity}
             removeItem={handleRemoveItem}
             clearCart={handleClearCart}
@@ -93,7 +102,10 @@ function Cart() {
             selectAll={handleSelectAll}
             removeSelected={handleRemoveSelected}
           />
-          <CartCustomerForm submitOrder={handleSubmitOrder} />
+          <CartCustomerForm
+            submitOrder={handleSubmitOrder}
+            isLoading={isLoading}
+          />
         </Box>
       )}
     </Box>

@@ -13,10 +13,4 @@ const countTotal = (cart) => {
   }, 0);
 };
 
-const confirmAndSaveOrder = (data) => {
-  let orders = JSON.parse(localStorage.getItem('orders')) || [];
-  orders.push(data);
-  localStorage.setItem('orders', JSON.stringify(orders));
-};
-
-export { syncCartWithLocalStorage, countTotal, confirmAndSaveOrder };
+export { syncCartWithLocalStorage, countTotal };
