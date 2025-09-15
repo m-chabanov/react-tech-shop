@@ -1,6 +1,15 @@
-import { AppBar, Box, Button, Grid, Toolbar } from '@mui/material';
+import {
+  Paper,
+  AppBar,
+  Box,
+  Button,
+  Grid,
+  Toolbar,
+  Typography,
+} from '@mui/material';
 import CartProductItem from '@/components/cart/CartProductItem';
 import { useTranslation } from 'react-i18next';
+import { countTotal } from '../../services/cart';
 
 function CartGoods({
   cart,
@@ -53,6 +62,22 @@ function CartGoods({
           key={item.id}
         />
       ))}
+      <Paper sx={{ mb: 4, mx: 2, p: 2 }}>
+        <Grid container sx={{ textAlign: 'right' }}>
+          <Grid size={12}>
+            <Typography
+              component={'span'}
+              sx={{ fontWeight: 700 }}
+              variant="h6"
+            >
+              Total:
+            </Typography>
+            <Typography variant="h6" component={'span'}>
+              {` ${countTotal(cart)}₴`}
+            </Typography>
+          </Grid>
+        </Grid>
+      </Paper>
     </Box>
   );
 }

@@ -1,5 +1,6 @@
 import { Box, Paper, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import { v4 as uuidv4 } from 'uuid';
 import CartGoods from '@/components/cart/CartGoods';
 import { selectCart } from '@/store/selectors/cartSelectors';
 import CartCustomerForm from '@/components/cart/CartCustomerForm';
@@ -13,7 +14,11 @@ import {
   removeSelected,
 } from '@/store/slices/cartSlice';
 import { useEffect } from 'react';
-import { syncCartWithLocalStorage } from '@/services/cart';
+import {
+  syncCartWithLocalStorage,
+  countTotal,
+  confirmAndSaveOrder,
+} from '@/services/cart';
 
 function Cart() {
   const dispatch = useDispatch();
@@ -47,6 +52,17 @@ function Cart() {
     dispatch(removeSelected());
   };
 
+  const handleSubmitOrder = (formData) => {
+    const data = {
+      id: uuidv4(),
+      customer: { ...formData },
+      items: [...cart],
+      createdAt: new Date().toString(),
+      total: countTotal(cart),
+    };
+    confirmAndSaveOrder(data);
+  };
+
   useEffect(() => {
     syncCartWithLocalStorage(cart);
   }, [cart]);
@@ -77,7 +93,7 @@ function Cart() {
             selectAll={handleSelectAll}
             removeSelected={handleRemoveSelected}
           />
-          <CartCustomerForm />
+          <CartCustomerForm submitOrder={handleSubmitOrder} />
         </Box>
       )}
     </Box>

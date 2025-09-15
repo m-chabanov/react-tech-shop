@@ -49,6 +49,30 @@
       "selectAll": "Обрати все",
       "removeSelected": "Видалити обране",
       "clearCart": "Очистити кошик"
+    },
+    "form": {
+      "fillTheForm": "Будь ласка, заповніть форму нижче",
+      "labels": {
+        "firstName": "Імʼя",
+        "lastName": "Прізвище",
+        "email": "Email",
+        "phone": "Телефон",
+        "paymentMethod": "Метод оплати",
+        "address": "Адреса",
+        "comments": "Коментарі"
+      },
+      "buttons": {
+        "clearForm": "Очистити форму",
+        "confirmOrder": "Підтвердити замовлення"
+      },
+      "errors": {
+        "required": "Це поле є обовʼязковим",
+        "tooLong": "Значення цього поля занадто довге",
+        "invalidEmail": "Некорректа Email-адреса",
+        "phoneTooShort": "Телефон занадто короткий",
+        "phoneTooLong": "Телефон занадто довгий",
+        "onlyDigitsPlus": "Будь ласка, введіть телефон у форматі +380XXXXXXXXX"
+      }
     }
   },
   "checkout": {

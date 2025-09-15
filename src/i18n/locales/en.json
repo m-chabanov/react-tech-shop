@@ -73,6 +73,30 @@
       "selectAll": "Select All",
       "removeSelected": "Remove Selected",
       "clearCart": "Clear Cart"
+    },
+    "form": {
+      "fillTheForm": "Please fill the form below",
+      "labels": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone",
+        "paymentMethod": "Payment Method",
+        "address": "Address",
+        "comments": "Comments"
+      },
+      "buttons": {
+        "clearForm": "Clear Form",
+        "confirmOrder": "Confirm Order"
+      },
+      "errors": {
+        "required": "This field is required",
+        "tooLong": "The value for the field is too long",
+        "invalidEmail": "Invalid Email Address",
+        "phoneTooShort": "The phone is too short",
+        "phoneTooLong": "The phone is too long",
+        "onlyDigitsPlus": "Please put telephone in format +380XXXXXXXXX"
+      }
     }
   },
   "checkout": {
