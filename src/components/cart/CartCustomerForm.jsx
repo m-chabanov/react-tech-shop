@@ -56,7 +56,6 @@ function CartCustomerForm({ submitOrder }) {
     <Paper
       component="form"
       noValidate
-      autoComplete="off"
       sx={{
         py: 2,
         m: 2,
@@ -78,6 +77,7 @@ function CartCustomerForm({ submitOrder }) {
         <Grid size={6}>
           <TextField
             required
+            autoComplete="given-name"
             label={t('cart.form.labels.firstName')}
             error={!!errors.firstName}
             helperText={
@@ -90,6 +90,7 @@ function CartCustomerForm({ submitOrder }) {
         <Grid size={6}>
           <TextField
             required
+            autoComplete="family-name"
             label={t('cart.form.labels.lastName')}
             error={!!errors.lastName}
             helperText={
@@ -102,6 +103,7 @@ function CartCustomerForm({ submitOrder }) {
         <Grid size={6}>
           <TextField
             required
+            autoComplete="email"
             label={t('cart.form.labels.email')}
             error={!!errors.email}
             helperText={
@@ -114,6 +116,7 @@ function CartCustomerForm({ submitOrder }) {
           <TextField
             required
             label={t('cart.form.labels.phone')}
+            autoComplete="tel"
             error={!!errors.phone}
             helperText={
               errors.phone && t(`cart.form.errors.${errors.phone?.message}`)
@@ -148,6 +151,7 @@ function CartCustomerForm({ submitOrder }) {
           <TextField
             required
             label={t('cart.form.labels.address')}
+            autoComplete="street-address"
             error={!!errors.address}
             helperText={
               errors.address && t(`cart.form.errors.${errors.address?.message}`)
