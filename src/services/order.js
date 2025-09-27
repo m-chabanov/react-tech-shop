@@ -2,7 +2,7 @@
 // It's created for Back-End response timing emulation
 // Just replace the code with fetch method sending data to correct API endpoint
 const confirmAndSaveOrder = (data) => {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       let orders = JSON.parse(localStorage.getItem('orders')) || [];
       orders.push(data);
